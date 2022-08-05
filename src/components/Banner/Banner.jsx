@@ -1,4 +1,3 @@
-import React, { useState, useEffect } from "react";
 import './Banner.scss'
 import { motion } from "framer-motion";
 import { AiFillLinkedin } from 'react-icons/ai'
@@ -31,11 +30,11 @@ const Banner = () => {
       <BannerRowCenter title={"OLAYIDE"}/>
       <BannerRowBottom title={"MATTHEWS"} />
 
-      <div className="social-links">
+      {/* <div className="social-links">
         <AiFillLinkedin className="link"/>
         <FaTwitter className='link' />
         <FaGithub className="link" />
-      </div>
+      </div> */}
     </motion.div>
   );
 };
@@ -72,8 +71,8 @@ const BannerRowTop = ({ title }) => {
         }}
         className='row-col'>
         <span className='row-message'>
-          We are specialised in setting up the foundation of your brand and
-          setting you up for success.
+          I'm quietly confident, naturally curious, and perpetually working on
+          improving my chops one design problem at a time.
         </span>
       </motion.div>
     </div>

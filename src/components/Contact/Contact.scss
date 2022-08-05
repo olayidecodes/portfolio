@@ -1,0 +1,19 @@
+.app__contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    .column {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            font-size: 1.6rem;
+            font-weight: 400;
+        }
+    }
+}

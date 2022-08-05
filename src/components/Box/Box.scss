@@ -1,0 +1,45 @@
+.box {
+    width: 22rem;
+    background-color: var(--light-gray);
+
+    .box-image img{
+        width: 22rem;
+    }
+
+    .box-text {
+        color: var(--light-black);
+        padding: .7rem 1rem 1rem 1rem;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        h4 {
+            text-transform: capitalize;
+            letter-spacing: 1px;
+            font-size: 1.2rem;
+            line-height: 1rem;
+        }
+
+        p {
+            font-size: 1rem;
+            line-height: 1.3rem;
+        }
+
+        span {
+            background-color: var(--dark-gray);
+            width:max-content;
+            padding: .2rem 1rem;
+            letter-spacing: 2px;
+            font-weight: 500;
+            a {
+            text-decoration: none;
+            color: var(--light-black);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: .3rem;
+            }
+        }
+
+    }
+}

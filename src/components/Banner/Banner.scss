@@ -1,3 +1,4 @@
+
 .banner {
     display: flex;
     flex-direction: column;
@@ -21,18 +22,20 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      gap: 2rem;
       @media (max-width: 1440px) {
         &:first-child {
-          margin-top: 48px;
+          margin-top: 0px;
         }
       }
       .row-title,
       .row-letter {
-        font-size: 10rem;
-        line-height: 10rem;
+        font-family: var(--font-big);
+        font-size: 9rem;
+        line-height: 9rem;
         font-weight: 500;
         position: relative;
-        letter-spacing: -.6rem;
+        letter-spacing: -.4rem;
         display: inline-block;
         white-space: nowrap;
         @media (max-width: 480px) {
@@ -50,8 +53,8 @@
         }
         .row-message {
           font-weight: 500;
-          font-size: 1.3rem;
-          line-height: 1.6rem;
+          font-size: .9rem;
+          line-height: 1rem;
           width: 320px;
           color: #ddd;
         }
@@ -64,10 +67,11 @@
 .social-links {
     margin-top: 3rem;
     display: flex;
-    gap: 5rem;
+    justify-content: space-evenly;
+    gap: 2rem;
 
     .link {
-        font-size: 3rem;
+        font-size: 2.5rem;
         color: #987750;
         cursor: pointer;
         animation-iteration-count: infinite;
@@ -77,9 +81,18 @@
 }
 
 @keyframes change-color {
-    0% {color: #987750;
-    left: 25px; top: 0px;}
-    25% {color: #ddd;}
-    50% {color: palevioletred;}
-    100% {color: yellowgreen;}
+    0% {color: #F8B195}
+    10% {color: #F67280;}
+    20% {color: #C06C84;}
+    30% {color: #6C5B7B;}
+    40% {color: #355C7D;}
+    50% {color: #355C7D;}
+    60% {color: #6C5B7B;}
+    70% {color: #C06C84;}
+    85% {color: #F67280;}
+    100% {color: #F8B195}
+}
+
+@media screen and (max-width: 1230px) {
+    
 }

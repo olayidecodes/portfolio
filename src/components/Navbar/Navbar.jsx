@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { RiEyeCloseLine, RiMenu4Line } from 'react-icons/ri'
-import './styles/global.scss'
+import './Navbar.scss'
 
 const Navbar = () => {
   
@@ -28,11 +28,14 @@ const Navbar = () => {
         {toggleMenu && (
           <div className="app__navbar-smallscreen_overlay flex__center slide-bottom">
             <RiEyeCloseLine fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
-            <ul className="app__navbar-links">
+            <ul className="app__navbar-links-overlay">
               <li className=""><a href = "#home">About</a></li>
               <li className=""><a href = "#about">Projects</a></li>
               <li className=""><a href = "#menu">Contact</a></li>
             </ul>
+            <div className='app__navbar-button-overlay'>
+              <p><a href="#contact">CONTACT ME</a></p>
+            </div>
           </div>
         )}
         
