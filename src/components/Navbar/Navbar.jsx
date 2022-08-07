@@ -33,9 +33,6 @@ const Navbar = () => {
               <li className=""><a href = "#about">Projects</a></li>
               <li className=""><a href = "#menu">Contact</a></li>
             </ul>
-            <div className='app__navbar-button-overlay'>
-              <p><a href="#contact">CONTACT ME</a></p>
-            </div>
           </div>
         )}
         

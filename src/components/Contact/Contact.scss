@@ -1,19 +1,112 @@
-.app__contact-content {
+.app__contact {
+    height: 100vh;
+}
+
+.app__contact-content{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
 
-    .column {
-        width: 50%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
+    .form-box {
+        max-width: 37rem;
         p {
-            font-size: 1.6rem;
-            font-weight: 400;
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+        }
+
+        .contact-form {
+            ul {
+                list-style: none;
+
+                li{
+                    padding: 0;
+                    margin: 0;
+                    list-style: none;
+                    margin-bottom: 10px;
+                    overflow: hidden;
+                    display: block;
+                    position: relative;
+                    animation: fadeInUp 2s 2s;
+                    animation-fill-mode: forwards;
+                    clear: both;
+                }
+        
+                li.half{
+                    width: 49%;
+                    margin-left: 2%;
+                    float: left;
+                    clear: none;
+        
+                    &:first-child{
+                        margin-left: 0;
+                    }
+                }
+
+                input[type='text'],
+                input[type='email'] {
+                    width: 100%;
+                    border: 0;
+                    background: transparent;
+                    border: 1px solid var(--main-brown);
+                    height: 40px;
+                    font-size: 16px;
+                    color: #fff;
+                    padding: 0 20px;
+                    box-sizing: border-box;
+                }
+                textarea{
+                    width: 100%;
+                    border: 0;
+                    background: transparent;
+                    border: 1px solid var(--main-brown);
+                    height: 40px;
+                    font-size: 16px;
+                    color: #fff;
+                    padding: 20px;
+                    min-height: 80px;
+                    box-sizing: border-box;
+                    overflow: hidden;
+                }
+
+                .flat-button{
+                    color: var(--main-brown);
+                    background: 0 0 ;
+                    font: 11px;
+                    letter-spacing: 3px;
+                    text-decoration: none;
+                    padding: 8px 10px;
+                    border: 1px solid var(--main-brown);
+                    float: left;
+                    border-radius: 4px;
+                }
+            }
         }
     }
+}
+
+.social-links {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2rem;
+
+    .link {
+        font-size: 2.5rem;
+        color: #987750;
+        cursor: pointer;
+        animation-iteration-count: infinite;
+        animation-name: change-color;
+        animation-duration: 4s;
+    }
+}
+
+@keyframes change-color {
+    0% {color: #F8B195}
+    10% {color: #F67280;}
+    20% {color: #C06C84;}
+    30% {color: #6C5B7B;}
+    40% {color: #355C7D;}
+    50% {color: #355C7D;}
+    60% {color: #6C5B7B;}
+    70% {color: #C06C84;}
+    85% {color: #F67280;}
+    100% {color: #F8B195}
 }

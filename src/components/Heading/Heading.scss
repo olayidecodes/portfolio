@@ -12,9 +12,17 @@
     font-weight: 400;
     color: var(--light-gray);
     margin-bottom: .4rem;
+
+    @media (max-width: 700px) {
+        font-size: 2.3rem;
+    }
 }
 
 .title-line {
     width: 8rem;
     margin-bottom: 2rem;
+
+    @media (max-width: 700px) {
+        width: 6rem;
+    }
 }

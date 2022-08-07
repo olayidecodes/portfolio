@@ -1,7 +1,5 @@
 import './Banner.scss'
 import { motion } from "framer-motion";
-import { AiFillLinkedin } from 'react-icons/ai'
-import { FaTwitter, FaGithub } from 'react-icons/fa'
 
 const banner = {
   animate: {
@@ -30,11 +28,7 @@ const Banner = () => {
       <BannerRowCenter title={"OLAYIDE"}/>
       <BannerRowBottom title={"MATTHEWS"} />
 
-      {/* <div className="social-links">
-        <AiFillLinkedin className="link"/>
-        <FaTwitter className='link' />
-        <FaGithub className="link" />
-      </div> */}
+      
     </motion.div>
   );
 };

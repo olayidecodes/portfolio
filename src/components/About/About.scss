@@ -2,7 +2,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
 
     .column {
         width: 50%;
@@ -14,6 +13,35 @@
         p {
             font-size: 1.6rem;
             font-weight: 400;
+        }
+
+        .info {
+            margin-top: 4rem;
+
+            ul {
+                list-style: none;
+
+                li {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin-top: 1.5rem;
+
+                    h5 {
+                        text-transform: uppercase;
+                        font-size: 1rem;
+                        letter-spacing: 1px;
+                        font-weight: 600;
+                    }
+
+                    p {
+                        font-size: 1rem;
+                        text-align: end;
+                        color: var(--light-gray);
+                        letter-spacing: .5px;
+                    }
+                }
+            }
         }
     }
 }
@@ -80,5 +108,17 @@
     }
     83%{
         transform: rotateX(90deg);
+    }
+}
+
+@media (max-width: 850px) {
+    .section-details {
+        flex-direction: column;
+        gap: 10rem;
+        margin-bottom: 5rem;
+
+        .column {
+            width: 100%;
+        }
     }
 }

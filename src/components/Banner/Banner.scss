@@ -41,6 +41,22 @@
         @media (max-width: 480px) {
           font-size: 7rem;
         }
+        @media screen and (max-width: 1150px) {
+          font-size: 6rem;
+          line-height: 6rem;
+          font-weight: 400;
+          letter-spacing: -.6rem;
+        }
+
+        @media (max-width: 700px) {
+          font-size: 4rem;
+        }
+
+        @media (max-width: 450px) {
+          font-size: 3rem;
+          letter-spacing: -.3rem;
+          font-family: var(--font-tags);
+        }
       }
       .row-col {
         display: flex;
@@ -57,6 +73,21 @@
           line-height: 1rem;
           width: 320px;
           color: #ddd;
+
+          @media (max-width: 1150px) {
+            font-size: .7rem;
+            line-height: .7rem;
+            width: 230px;
+          }
+
+          @media (max-width: 700px) {
+            font-size: .5rem;
+            width: 150px;
+          }
+
+          @media (max-width: 450px) {
+            display: none;
+          }
         }
       }
       
@@ -64,35 +95,14 @@
   }
   
  
-.social-links {
-    margin-top: 3rem;
-    display: flex;
-    justify-content: space-evenly;
-    gap: 2rem;
 
-    .link {
-        font-size: 2.5rem;
-        color: #987750;
-        cursor: pointer;
-        animation-iteration-count: infinite;
-        animation-name: change-color;
-        animation-duration: 4s;
-    }
-}
 
-@keyframes change-color {
-    0% {color: #F8B195}
-    10% {color: #F67280;}
-    20% {color: #C06C84;}
-    30% {color: #6C5B7B;}
-    40% {color: #355C7D;}
-    50% {color: #355C7D;}
-    60% {color: #6C5B7B;}
-    70% {color: #C06C84;}
-    85% {color: #F67280;}
-    100% {color: #F8B195}
-}
-
-@media screen and (max-width: 1230px) {
-    
+@media screen and (max-width: 1150px) {
+  .row-title,
+  .row-letter {
+    font-size: 5rem;
+    line-height: 6rem;
+    font-weight: 400;
+    letter-spacing: -.4rem;
+  }
 }

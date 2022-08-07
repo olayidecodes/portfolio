@@ -25,6 +25,10 @@ body {
   background-color: var(--light-black);
   padding: 0 5rem;
   color: var(--dark-gray);
+
+  @media (max-width: 830px) {
+    padding: 0 2rem;
+  }
 }
 
 .section {

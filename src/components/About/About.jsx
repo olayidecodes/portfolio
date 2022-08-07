@@ -17,15 +17,45 @@ const About = () => {
         
         <div className="app__about-details section-details">
           <div className="column">
-            <p>I'm very ambitious front-end developer looking for a role in
+            <div>
+              <p>I'm very ambitious front-end developer looking for a role in
               established IT company with the opportunity to work with the latest
-              technologies on challenging and diverse projects.
-            </p> <br />
-            <p>
-              If I need to define myself in one sentence that would be a family
-              person, father of a beautiful daughter, a sports fanatic,
-              photography enthusiast, and tech-obsessed!!!
-            </p>
+              technologies on challenging and diverse projects.</p>
+
+              <div className='info'>
+                <ul>
+                  <li>
+                    <h5>Name</h5>
+                    <p>Victoria Matthews</p>
+                  </li>
+
+                  <li>
+                    <h5>Birthday</h5>
+                    <p>29th October, 2002</p>
+                  </li>
+
+                  <li>
+                    <h5>Age</h5>
+                    <p>19</p>
+                  </li>
+
+                  <li>
+                    <h5>Address</h5>
+                    <p>Ondo State, Nigeria</p>
+                  </li>
+
+                  <li>
+                    <h5>Phone</h5>
+                    <p>+2348055716799</p>
+                  </li>
+
+                  <li>
+                    <h5>email</h5>
+                    <p>olayidecodes@gmail.com</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
           <div className='cubespinner column'>
                     <div className='face1'>
