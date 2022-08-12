@@ -7,7 +7,7 @@ import {faAngular, faHtml5, faCss3,faJsSquare, faReact, faGitAlt} from '@fortawe
 
 const About = () => {
   return (
-    <div className='app__about section'>
+    <div className='app__about section'  id='About'>
         <div className="app__about-header section-title">
           <Heading 
             title1='About me'
@@ -18,9 +18,10 @@ const About = () => {
         <div className="app__about-details section-details">
           <div className="column">
             <div>
-              <p>I'm very ambitious front-end developer looking for a role in
-              established IT company with the opportunity to work with the latest
-              technologies on challenging and diverse projects.</p>
+              <p>I'm a very ambitious Front-end developer looking for a role in an
+              established IT company or a start-up with the opportunity to learn new stuffs and to work with the latest
+              technologies on challenging and diverse projects.<br />I work with the following technologies: 
+              HTML, CSS, Javascript, React, Next JS, Angular, SASS, Tailwind CSS, GraphQL and GIT.</p>
 
               <div className='info'>
                 <ul>

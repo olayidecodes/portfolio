@@ -32,7 +32,7 @@ const Contact = () => {
     }
 
   return (
-    <div className='app__contact section'>
+    <div className='app__contact section' id='Contact'>
         <div className="app__contact-header section-title">
             <Heading 
                 title1= 'Contact'

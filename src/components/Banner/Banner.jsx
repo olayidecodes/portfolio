@@ -24,9 +24,9 @@ const letterAni = {
 const Banner = () => {
   return (
     <motion.div className='banner' variants={banner}>
-      <BannerRowTop title={"VICTORIA"} />
-      <BannerRowCenter title={"OLAYIDE"}/>
-      <BannerRowBottom title={"MATTHEWS"} />
+      <BannerRowTop title={"Matthews"} />
+      <BannerRowCenter title={"Victoria"}/>
+      <BannerRowBottom title={"Olayide"} />
 
       
     </motion.div>
@@ -73,7 +73,7 @@ const BannerRowTop = ({ title }) => {
   );
 };
 
-const BannerRowCenter = ({ title, playMarquee }) => {
+const BannerRowCenter = ({ title}) => {
   return (
     <div className="banner-row center">
       <div className='row-col'>
