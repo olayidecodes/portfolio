@@ -24,9 +24,9 @@ const letterAni = {
 const Banner = () => {
   return (
     <motion.div className='banner' variants={banner}>
-      <BannerRowTop title={"Matthews"} />
-      <BannerRowCenter title={"Victoria"}/>
-      <BannerRowBottom title={"Olayide"} />
+      <BannerRowTop title={"Victoria"} />
+      <BannerRowCenter title={"Olayide"}/>
+      <BannerRowBottom title={"Matthews"} />
 
       
     </motion.div>
@@ -55,6 +55,14 @@ const BannerRowTop = ({ title }) => {
       <div className='row-col'>
         <AnimatedLetters title={title} />
       </div>
+      
+    </div>
+  );
+};
+
+const BannerRowCenter = ({ title}) => {
+  return (
+    <div className="banner-row center">
       <motion.div
         initial={{ opacity: 0, y: 80 }}
         animate={{ opacity: 1, y: 0 }}
@@ -69,13 +77,6 @@ const BannerRowTop = ({ title }) => {
           improving my chops one design problem at a time.
         </span>
       </motion.div>
-    </div>
-  );
-};
-
-const BannerRowCenter = ({ title}) => {
-  return (
-    <div className="banner-row center">
       <div className='row-col'>
         <AnimatedLetters title={title} />
       </div>
