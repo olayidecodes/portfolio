@@ -21,7 +21,7 @@ const About = () => {
               <p>I'm a very ambitious Front-end developer looking for a role in an
               established IT company or a start-up with the opportunity to learn new stuffs and to work with the latest
               technologies on challenging and diverse projects.<br />I work with the following technologies: 
-              HTML, CSS, Javascript, React, Next JS, Angular, SASS, Tailwind CSS, GraphQL and GIT.</p>
+              HTML, CSS, Javascript, React, Next JS, SASS, Tailwind CSS, GraphQL and GIT.</p>
 
               <div className='info'>
                 <ul>

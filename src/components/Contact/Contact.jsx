@@ -43,7 +43,7 @@ const Contact = () => {
         <div className="app__contact-content"> 
 
             <div className="form-box">
-                <p>If you have any suggestion, project or even you want to say “hello”, please fill out the form below and I will reply you shortly.</p>
+                <p>If you have any suggestion, project or even if you want to say “hello”, please fill out the form below and I will reply to you shortly.</p>
              
                 <div className='contact-form'>
                     <form ref={refForm} onSubmit={sendEmail}>

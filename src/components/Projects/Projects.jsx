@@ -28,12 +28,13 @@ const Projects = () => {
                 description='A modern clean design of a restaurant 
                 website using React. The design includes details of the website including the address, chef, awards, menu offered and pictures.'
                 link='https://gericht-restaurant-xi.vercel.app/'
+                code = 'https://github.com/olayidecodes/Modern-Restaurant-App'
             />
 
             <Box
                 image={blog}
                 name= 'Ola&#39;s Blog'
-                description='A blog application with Next JS for static paths generation and GraphQL.'
+                description='A simple blog application built with Next JS for static paths generation and GraphQL for content management.'
                 link='https://olas-blog-olayidecodes.vercel.app/'
                 code='https://github.com/olayidecodes/olas-blog'
             />
@@ -49,7 +50,7 @@ const Projects = () => {
             <Box
                 image={hulu_clone}
                 name= 'Hulu Clone'
-                description='A simple clone of a movie streaming app using Next JS, Tailwind CSS and RESTful API.'
+                description='A simple clone of a movie streaming app using Next JS, Tailwind CSS and RESTful API to view latest movies.'
                 link='https://hulu-clone-olayidecodes.vercel.app/'
                 code= 'https://github.com/olayidecodes/Hulu-Clone'
             />

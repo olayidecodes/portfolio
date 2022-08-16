@@ -19,7 +19,7 @@ const Navbar = () => {
       </ul>
 
       <div className='app__navbar-button'>
-        <p><a href="#contact">CONTACT ME</a></p>
+        <p><a href="#Contact">CONTACT ME</a></p>
       </div>
 
       <div className="app__navbar-smallscreen">
