@@ -10,6 +10,7 @@ import youtube_clone from '../../assets/youtube_clone.png'
 import blog from '../../assets/blog.png'
 import weather_app from '../../assets/weather_app.png'
 import audi_r8 from '../../assets/audi_r8.png'
+import makeup from '../../assets/makeup.png'
 
 
 const Projects = () => {
@@ -45,6 +46,14 @@ const Projects = () => {
                 description='A minimal design of a shopping website executed using Next JS and an elegant layout using grid.'
                 link='https://olacommerce-olayidecodes.vercel.app/'
                 code= 'https://github.com/olayidecodes/olacommerce'
+            />
+
+            <Box
+                image={makeup}
+                name= 'JUO'
+                description='A minimal makeup website created with HTML and CSS'
+                link='https://juo-olayidecodes.vercel.app/'
+                code='https://github.com/olayidecodes/Audi-R8-website'
             />
 
             <Box

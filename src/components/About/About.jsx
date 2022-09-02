@@ -2,7 +2,7 @@ import React from 'react'
 import Heading from '../Heading/Heading'
 import './About.scss'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
-import {faAngular, faHtml5, faCss3,faJsSquare, faReact, faGitAlt} from '@fortawesome/free-brands-svg-icons'
+import {faVuejs, faHtml5, faCss3,faJsSquare, faReact, faGitAlt} from '@fortawesome/free-brands-svg-icons'
 
 
 const About = () => {
@@ -18,10 +18,10 @@ const About = () => {
         <div className="app__about-details section-details">
           <div className="column">
             <div>
-              <p>I'm a very ambitious Front-end developer looking for a role in an
-              established IT company or a start-up with the opportunity to learn new stuffs and to work with the latest
+              <p>I'm an ambitious Front-end developer looking for a role in an
+              established IT company or a start-up with the opportunity to learn new stuffs and work with the latest
               technologies on challenging and diverse projects.<br />I work with the following technologies: 
-              HTML, CSS, Javascript, React, Next JS, SASS, Tailwind CSS, GraphQL and GIT.</p>
+              HTML, CSS, Javascript, React, Vue, Next JS, SASS, Tailwind CSS, GraphQL and GIT.</p>
 
               <div className='info'>
                 <ul>
@@ -59,25 +59,25 @@ const About = () => {
             </div>
           </div>
           <div className='cubespinner column'>
-                    <div className='face1'>
-                        <FontAwesomeIcon icon={faHtml5} color="#F06529"/>
-                    </div>
-                    <div className='face2'>
-                        <FontAwesomeIcon icon={faCss3} color="#28A4D9"/>
-                    </div>
-                    <div className='face3'>
-                        <FontAwesomeIcon icon={faJsSquare} color="#EFD81D"/>
-                    </div>
-                    <div className='face4'>
-                        <FontAwesomeIcon icon={faReact} color="#5ED4F4"/>
-                    </div>
-                    <div className='face5'>
-                        <FontAwesomeIcon icon={faAngular} color="#DD0031"/>
-                    </div>
-                    <div className='face6'>
-                        <FontAwesomeIcon icon={faGitAlt} color="#EC4D28"/>
-                    </div>
-                </div>
+              <div className='face1'>
+                  <FontAwesomeIcon icon={faHtml5} color="#F06529"/>
+              </div>
+              <div className='face2'>
+                  <FontAwesomeIcon icon={faCss3} color="#28A4D9"/>
+              </div>
+              <div className='face3'>
+                  <FontAwesomeIcon icon={faJsSquare} color="#EFD81D"/>
+              </div>
+              <div className='face4'>
+                  <FontAwesomeIcon icon={faReact} color="#5ED4F4"/>
+              </div>
+              <div className='face5'>
+                  <FontAwesomeIcon icon={faVuejs} color="#00FF00"/>
+              </div>
+              <div className='face6'>
+                  <FontAwesomeIcon icon={faGitAlt} color="#EC4D28"/>
+              </div>
+          </div>
         </div>
     </div>
   )
