@@ -18,10 +18,10 @@ const About = () => {
         <div className="app__about-details section-details">
           <div className="column">
             <div>
-              <p>I'm an ambitious Front-end developer looking for a role in an
-              established IT company or a start-up with the opportunity to learn new stuffs and work with the latest
+              <p>I'm an ambitious Frontend developer looking for a role in an
+              established IT company or a start-up with the opportunity to learn and work with the latest
               technologies on challenging and diverse projects.<br />I work with the following technologies: 
-              HTML, CSS, Javascript, React, Vue, Next JS, SASS, Tailwind CSS, GraphQL and GIT.</p>
+              HTML, S(CSS), Javascript, React, Vue, Next JS, Tailwind CSS, GraphQL and GIT.</p>
 
               <div className='info'>
                 <ul>
@@ -73,9 +73,6 @@ const About = () => {
               </div>
               <div className='face5'>
                   <FontAwesomeIcon icon={faVuejs} color="#00FF00"/>
-              </div>
-              <div className='face6'>
-                  <FontAwesomeIcon icon={faGitAlt} color="#EC4D28"/>
               </div>
           </div>
         </div>
