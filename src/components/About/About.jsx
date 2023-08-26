@@ -18,8 +18,9 @@ const About = () => {
         <div className="app__about-details section-details">
           <div className="column">
             <div>
-              <p>I'm an ambitious Frontend developer who loves creating aesthetically pleasing websites and exploring different technologies to develop beautiful interfaces.<br />I'm currently looking for opportunites to learn and collaborate with other developers to work on new, challenging and diverse projects.<br /> I work with the following technologies: 
-              HTML, S(CSS), Javascript, React, Vue, Next JS, Tailwind CSS, GraphQL and GIT.</p>
+              <p>Experienced frontend developer with a proven track record of three years in creating captivating user interfaces. Committed to delivering seamless user experiences through a blend of creativity and technical expertise. Passionate about staying at the forefront of web development trends and continuously refining skills to drive innovation.
+              <br /> I work with the following technologies: 
+              HTML, S(CSS), Javascript, React, Vue, Next JS, Tailwind CSS, Redux and Zustand, Jest, and GraphQL.</p>
 
               <div className='info'>
                 <ul>
@@ -30,7 +31,7 @@ const About = () => {
 
                   <li>
                     <h5>Address</h5>
-                    <p>Ondo State, Nigeria</p>
+                    <p>Oyo State, Nigeria</p>
                   </li>
 
                   <li>

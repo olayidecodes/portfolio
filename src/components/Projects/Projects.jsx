@@ -3,8 +3,8 @@ import './Projects.scss'
 import Box from '../Box/Box'
 import Heading from '../Heading/Heading'
 import restaurant from '../../assets/restaurant.png'
-import olacommerce from '../../assets/olacommerce.png'
-import hulu_clone from '../../assets/hulu_clone.png'
+import messenger from '../../assets/messenger.png'
+import blockchainnest from '../../assets/blockchainnest.png'
 import admin_dashboard from '../../assets/admin_dashboard.png'
 import youtube_clone from '../../assets/youtube_clone.png'
 import blog from '../../assets/blog.png'
@@ -34,19 +34,29 @@ const Projects = () => {
             />
 
             <Box
+                image={messenger}
+                name= 'Messenger'
+                description='A dynamic messaging app with real-time updates, stunning UI, secure authentication, file uploads, and engaging interactions.'
+                link='https://messenger-clone-olayidecodes.vercel.app/'
+                code= 'https://github.com/olayidecodes/Messenger-Clone'
+            />
+
+            
+
+            <Box
+                image={blockchainnest}
+                name= 'Blockchainnest'
+                description='Full-stack blog app: React, MySQL, Node; dynamic content, user auth, real-time updates for engagement'
+                link='https://blockchain-nest.vercel.app/'
+                code= 'https://github.com/olayidecodes/blockchain-nest'
+            />
+
+            <Box
                 image={blog}
                 name= 'Ola&#39;s Blog'
                 description='A simple blog application built with Next JS for static paths generation and GraphQL for content management.'
                 link='https://olas-blog-olayidecodes.vercel.app/'
                 code='https://github.com/olayidecodes/olas-blog'
-            />
-
-            <Box
-                image={olacommerce}
-                name= 'Olacommerce'
-                description='A minimal design of a shopping website built using Next JS and an elegant layout using grid.'
-                link='https://olacommerce-olayidecodes.vercel.app/'
-                code= 'https://github.com/olayidecodes/olacommerce'
             />
 
             <Box
@@ -58,35 +68,11 @@ const Projects = () => {
             />
 
             <Box
-                image={hulu_clone}
-                name= 'Hulu Clone'
-                description='A simple clone of a movie streaming app using Next JS, Tailwind CSS and RESTful API to view latest movies.'
-                link='https://hulu-clone-olayidecodes.vercel.app/'
-                code= 'https://github.com/olayidecodes/Hulu-Clone'
-            />
-
-            <Box
-                image={admin_dashboard}
-                name= 'Admin Dashboard'
-                description='An admin dashboard layout design using HTML, CSS, and Javascript'
-                link='https://admin-dashboard-olayidecodes.vercel.app/'
-                code= 'https://github.com/olayidecodes/Admin_Dashboard'
-            />
-
-            <Box
                 image={youtube_clone}
                 name= 'Youtube Clone'
                 description='Youtube Clone with video pages created using React, React Router, and Styled Components.'
                 link='https://youtube-clone-olayidecodes.vercel.app/'
                 code='https://github.com/olayidecodes/Youtube-Clone'
-            />
-
-            <Box
-                image={weather_app}
-                name= 'Weather App'
-                description='An application to check the weather condition of any location using React and RESTful API.'
-                link='https://weather-app-olayidecodes.vercel.app/'
-                code='https://github.com/olayidecodes/Weather-App'
             />
 
             <Box

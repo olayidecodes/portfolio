@@ -69,9 +69,15 @@ const Contact = () => {
                 </div>
 
                 <div className="social-links">
+                    <a href="https://www.linkedin.com/in/victoria-matthews-395653228" >
                     <AiFillLinkedin className="link"/>
+                    </a>
+                    <a href="https://twitter.com/_olayide_" >
                     <FaTwitter className='link' />
+                    </a>
+                    <a href="https://github.com/olayidecodes/" >
                     <FaGithub className="link" />
+                    </a>
                 </div>
             </div>
 

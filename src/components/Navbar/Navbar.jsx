@@ -19,7 +19,7 @@ const Navbar = () => {
       </ul>
 
       <div className='app__navbar-button'>
-        <p><a href="#Contact">CONTACT ME</a></p>
+        <p><a href="https://flowcv.com/resume/rtneslrog6">Resume</a></p>
       </div>
 
       <div className="app__navbar-smallscreen">
@@ -32,6 +32,7 @@ const Navbar = () => {
               <li className=""><a href = "#About" onClick={() => setToggleMenu(false)} >About</a></li>
               <li className=""><a href = "#Projects" onClick={() => setToggleMenu(false)} >Projects</a></li>
               <li className=""><a href = "#Contact" onClick={() => setToggleMenu(false)} >Contact</a></li>
+              <li className=""><a href = "https://flowcv.com/resume/rtneslrog6" onClick={() => setToggleMenu(false)} >Resume</a></li>
             </ul>
           </div>
         )}
