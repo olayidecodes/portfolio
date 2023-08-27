@@ -36,7 +36,8 @@ const Projects = () => {
             <Box
                 image={messenger}
                 name= 'Messenger'
-                description='A dynamic messaging app with real-time updates, stunning UI, secure authentication, file uploads, and engaging interactions.'
+                description='A dynamic messaging app with real-time updates, stunning UI, secure authentication, file uploads, and engaging interactions.
+                Built with NextJS 13, Typescript, Next Auth, Prisma, MongoDB, Tailwind CSS, Cloudinary and Pusher'
                 link='https://messenger-clone-olayidecodes.vercel.app/'
                 code= 'https://github.com/olayidecodes/Messenger-Clone'
             />
@@ -46,7 +47,7 @@ const Projects = () => {
             <Box
                 image={blockchainnest}
                 name= 'Blockchainnest'
-                description='Full-stack blog app: React, MySQL, Node; dynamic content, user auth, real-time updates for engagement'
+                description='Full-stack blog app: React, MySQL, Node; Sleek User Interface, dynamic blog posts, user auth, real-time updates for engagement'
                 link='https://blockchain-nest.vercel.app/'
                 code= 'https://github.com/olayidecodes/blockchain-nest'
             />
