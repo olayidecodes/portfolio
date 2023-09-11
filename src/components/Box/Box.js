@@ -7,7 +7,7 @@ const Box = ({ image, name, description, link, code }) => {
   return (
     <div className='box'>
         <div className='box-image'>
-            <img src={image} alt="Project Image" />
+            <img src={image} alt="Project Image" loading='lazy' />
         </div>
         <div className='box-text'>
             <h4>{name}</h4>
